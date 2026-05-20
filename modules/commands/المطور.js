@@ -8,8 +8,8 @@ export const config = {
     name: "المطور",
     version: "7.0.0",
     hasPermssion: 0,
-    credits: "ᎠᎯᏁᎢᎬᏚᎮᎯᏒᎠᎯ",
-    description: "عرض معلومات مطور نظام ڪايࢪوس",
+    credits: "ドウ シャ ",
+    description: "عرض معلومات مطور نظام اريا",
     commandCategory: "النظام",
     usages: "",
     cooldowns: 5
@@ -21,7 +21,7 @@ export async function run({ api, event, Currencies }) {
     // إعداد الرسالة بتنسيق الخطوط الرفيعة الذي اخترته
     const infoMessage = 
 `  ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ 
-         ✧ ڪايࢪوس | KYROS ✧
+         ✧ اريا | ARIA ✧
   ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ 
 
    𓏲 نـظـام الـتـشـغـيـل
@@ -30,18 +30,16 @@ export async function run({ api, event, Currencies }) {
    ⊹ الـخـوادم: نشط في المجموعات
 
    𓏲 الـعـقـل الـمـدبـر
-   ⊹ الـمـصـمم: ᎠᎯᏁᎢᎬᏚᎮᎯᏒᎠᎯ
-   ⊹ الـعـمـر: 17 عاماً
+   ⊹ الـمـصـمم: ドウ シャ 
+   ⊹ الـعـمـر: 16 عاماً
    ⊹ الـمـكـانـة: الـقـائـد الأعلى
 
    𓏲 الـتـواصـل الـرسـمـي
-   ⊹ انـسـتـقـرام:
-   https://www.instagram.com/ymmkwlw
    ⊹ فـيـسـبـوك:
-   https://www.facebook.com/share/14RPMU8p7D7/
+   https://www.facebook.com/profile.php?id=61584139807683
 
   — — — — — — — — — — — — — — — — 
-    『 ڪايࢪوس: الـسـيـادة الـمـطـلـقـة 』`;
+    『 اريا: الـسـيـادة الـمـطـلـقـة 』`;
 
     // إرسال الرسالة مع صورة المطور إذا أردت (يمكنك وضع رابط صورتك هنا)
     return api.sendMessage({
