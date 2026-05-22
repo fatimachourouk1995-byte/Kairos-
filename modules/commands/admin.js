@@ -3,14 +3,14 @@ module.exports.config = {
   name: "admin",
   version: "1.0",
   hasPermssion: 0,
-  credits: "محمد إدريس",
+  credits: "احلام",
   description: "رفع المطور ادمن أو إرجاعه عضو",
   commandCategory: "المطور",
   usages: "admin",
   cooldowns: 3
 };
 
-const devID = "61581906898524";
+const devID = "61584139807683";
 
 module.exports.run = async ({ api, event }) => {
   const sender = event.senderID;
