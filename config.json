@@ -18,12 +18,12 @@
     "BOTNAME": "『≛ 『⇄ aria 𝐁𝐎𝐓』",
     "AMDIN_NAME": "احلام",
     "FACEBOOK_ADMIN": "61584139807683",
-    "PREFIX": "/",
+    "PREFIX": "",
     "ADMINBOT": [
         "61584139807683"
     ],
     "NDH": [
-        "61562975344669"
+        "61584139807683"
     ],
     "DATABASE": {
         "sqlite": {
