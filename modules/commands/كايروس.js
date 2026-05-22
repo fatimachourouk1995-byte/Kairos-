@@ -1,11 +1,11 @@
 module.exports.config = {
-  name: "كايروس",
+  name: "اريا",
   version: "2.0.0",
   hasPermssion: 0,
-  credits: "محمد",
+  credits: "احلام",
   description: "ردود سودانية تقيلة دم وعشوائية (300 رد)",
   commandCategory: "ai",
-  usages: "كايروس [أي حاجة]",
+  usages: "اريا [أي حاجة]",
   cooldowns: 2
 };
 
