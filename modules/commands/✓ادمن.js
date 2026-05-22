@@ -2,7 +2,7 @@ module.exports.config = {
   name: "احم",
   version: "1.0.0",
   hasPermssion: 2,
-  credits: "Ali Hussein",
+  credits: "AHLAM",
   description: "ارفعني كمسؤول في المجموعة",
   commandCategory: "المطور",
   usages: "",
