@@ -2,7 +2,7 @@ module.exports.config = {
   name: "اوامر",
   version: "1.0.6",
   hasPermssion: 0,
-  credits: "ڪولو سان + تصميم منسق بواسطة محمد إدريس",
+  credits: "اريا سان + تصميم منسق بواسطة احلام",
   description: "قائمة الأوامر بشكل منسق وجميل",
   commandCategory: "نظام",
   usages: "[رقم الصفحة]",
@@ -87,7 +87,7 @@ module.exports.run = async function({ api, event, args, getText }) {
 
     const msg = `
 ༺❀༻═══════════════════༺❀༻
-        قائمة أوامر 𝐊𝐈𝐅𝐀𝐍 𝐁𝐎𝐓
+        قائمة أوامر ARIA 𝐁𝐎𝐓
 ༺❀༻═══════════════════༺❀༻
 
 ${finalBlocks}
@@ -96,8 +96,8 @@ ${finalBlocks}
 عدد الأوامر: ${count}
 استخدم: ${prefix}help [اسم الأمر]
 
-البوت: 𝐊𝐈𝐅𝐀𝐍 𝐁𝐎𝐓
-المطور: ᎯᏴᎨᏟᎻᎥᎯᎶᎯ Ꮥ.ᎥᏁᎨᎧ
+البوت: ARIA 𝐁𝐎𝐓
+المطور: احلام
 
 ${page === 1 ? "\nاستغفر الله العظيم وأتوب إليه\nاللهم صل وسلم على نبينا محمد ﷺ" : ""}
 `;
